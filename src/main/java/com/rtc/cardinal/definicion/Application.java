@@ -15,7 +15,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * TODO: Definición de {@code DefinicionApplication}.
+ * TODO: Definición de {@code Application}.
  *
  * @author Dyson Parra
  * @since 1.8
