@@ -23,8 +23,9 @@ import org.slf4j.LoggerFactory;
 /**
  * TODO: Definición de {@code ServicioImplementacionBase}.
  *
- * @author Dyson Parra
  * @param <T>
+ *
+ * @author Dyson Parra
  * @since 1.8
  */
 public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
@@ -46,6 +47,9 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     /**
      * TODO: Definición de {@code guardarActualizar}.
      *
+     * @param entidadDTO
+     * @return
+     * @throws java.lang.Exception
      */
     @Override
     public T guardarActualizar(T entidadDTO) throws Exception {
@@ -55,6 +59,8 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     /**
      * TODO: Definición de {@code obtenerEntidades}.
      *
+     * @return
+     * @throws java.lang.Exception
      */
     @Override
     public List<T> obtenerEntidades() throws Exception {
@@ -64,6 +70,9 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     /**
      * TODO: Definición de {@code buscarEntidad}.
      *
+     * @param id
+     * @return
+     * @throws java.lang.Exception
      */
     @Override
     public T buscarEntidad(String id) throws Exception {
@@ -73,6 +82,8 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     /**
      * TODO: Definición de {@code eliminarEntidad}.
      *
+     * @param id
+     * @throws java.lang.Exception
      */
     @Override
     public void eliminarEntidad(String id) throws Exception {
