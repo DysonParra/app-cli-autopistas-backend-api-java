@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {RepositorioBadge} se encarga de realizar tareas específicas.
+ * @fileoverview    {RepositorioBadge}
  *
  * @version         2.0
  *

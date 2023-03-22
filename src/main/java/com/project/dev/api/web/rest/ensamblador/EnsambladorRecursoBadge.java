@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoBadge} se encarga de realizar tareas específicas.
+ * @fileoverview    {EnsambladorRecursoBadge}
  *
  * @version         2.0
  *

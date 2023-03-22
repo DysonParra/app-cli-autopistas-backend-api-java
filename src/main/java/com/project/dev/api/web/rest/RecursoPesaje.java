@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {RecursoPesaje} se encarga de realizar tareas específicas.
+ * @fileoverview    {RecursoPesaje}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MapeoConductor} se encarga de realizar tareas específicas.
+ * @fileoverview    {MapeoConductor}
  *
  * @version         2.0
  *

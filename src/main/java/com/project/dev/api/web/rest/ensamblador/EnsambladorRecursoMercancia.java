@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoMercancia} se encarga de realizar tareas específicas.
+ * @fileoverview    {EnsambladorRecursoMercancia}
  *
  * @version         2.0
  *

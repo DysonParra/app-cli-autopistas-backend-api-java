@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {RecursoTransitoDinamica} se encarga de realizar tareas específicas.
+ * @fileoverview    {RecursoTransitoDinamica}
  *
  * @version         2.0
  *

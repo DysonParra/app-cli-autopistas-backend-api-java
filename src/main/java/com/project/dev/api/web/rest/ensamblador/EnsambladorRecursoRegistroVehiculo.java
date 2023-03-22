@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoRegistroVehiculo} se encarga de realizar tareas específicas.
+ * @fileoverview    {EnsambladorRecursoRegistroVehiculo}
  *
  * @version         2.0
  *

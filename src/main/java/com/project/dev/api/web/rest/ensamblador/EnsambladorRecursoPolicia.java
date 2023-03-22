@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoPolicia} se encarga de realizar tareas específicas.
+ * @fileoverview    {EnsambladorRecursoPolicia}
  *
  * @version         2.0
  *

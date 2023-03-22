@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioPesajeImpl} se encarga de realizar tareas específicas.
+ * @fileoverview    {ServicioPesajeImpl}
  *
  * @version         2.0
  *

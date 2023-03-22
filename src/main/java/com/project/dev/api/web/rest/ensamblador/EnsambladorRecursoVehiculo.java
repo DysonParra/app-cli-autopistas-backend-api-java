@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoVehiculo} se encarga de realizar tareas específicas.
+ * @fileoverview    {EnsambladorRecursoVehiculo}
  *
  * @version         2.0
  *

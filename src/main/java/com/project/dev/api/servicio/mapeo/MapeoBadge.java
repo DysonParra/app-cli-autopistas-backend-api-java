@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MapeoBadge} se encarga de realizar tareas específicas.
+ * @fileoverview    {MapeoBadge}
  *
  * @version         2.0
  *

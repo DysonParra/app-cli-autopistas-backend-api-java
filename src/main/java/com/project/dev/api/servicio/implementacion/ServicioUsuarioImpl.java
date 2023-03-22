@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioUsuarioImpl} se encarga de realizar tareas específicas.
+ * @fileoverview    {ServicioUsuarioImpl}
  *
  * @version         2.0
  *

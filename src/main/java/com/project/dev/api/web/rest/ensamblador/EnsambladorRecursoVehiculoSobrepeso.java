@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoVehiculoSobrepeso} se encarga de realizar tareas específicas.
+ * @fileoverview    {EnsambladorRecursoVehiculoSobrepeso}
  *
  * @version         2.0
  *

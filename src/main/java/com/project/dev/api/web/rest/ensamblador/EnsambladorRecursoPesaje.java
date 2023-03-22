@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoPesaje} se encarga de realizar tareas específicas.
+ * @fileoverview    {EnsambladorRecursoPesaje}
  *
  * @version         2.0
  *

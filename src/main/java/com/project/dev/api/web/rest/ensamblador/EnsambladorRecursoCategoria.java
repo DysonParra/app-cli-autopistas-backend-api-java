@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoCategoria} se encarga de realizar tareas específicas.
+ * @fileoverview    {EnsambladorRecursoCategoria}
  *
  * @version         2.0
  *

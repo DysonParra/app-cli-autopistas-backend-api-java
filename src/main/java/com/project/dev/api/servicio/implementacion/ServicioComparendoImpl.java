@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioComparendoImpl} se encarga de realizar tareas específicas.
+ * @fileoverview    {ServicioComparendoImpl}
  *
  * @version         2.0
  *

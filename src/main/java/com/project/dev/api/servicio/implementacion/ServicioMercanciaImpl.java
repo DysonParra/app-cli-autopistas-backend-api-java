@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioMercanciaImpl} se encarga de realizar tareas específicas.
+ * @fileoverview    {ServicioMercanciaImpl}
  *
  * @version         2.0
  *

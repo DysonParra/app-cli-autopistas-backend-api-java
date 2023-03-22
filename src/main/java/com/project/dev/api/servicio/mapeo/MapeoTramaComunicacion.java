@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MapeoTramaComunicacion} se encarga de realizar tareas específicas.
+ * @fileoverview    {MapeoTramaComunicacion}
  *
  * @version         2.0
  *

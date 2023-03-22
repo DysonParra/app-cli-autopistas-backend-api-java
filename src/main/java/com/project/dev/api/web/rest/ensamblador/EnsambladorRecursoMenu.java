@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoMenu} se encarga de realizar tareas específicas.
+ * @fileoverview    {EnsambladorRecursoMenu}
  *
  * @version         2.0
  *

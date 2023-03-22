@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {TramaComunicacionDTO} se encarga de realizar tareas específicas.
+ * @fileoverview    {TramaComunicacionDTO}
  *
  * @version         2.0
  *

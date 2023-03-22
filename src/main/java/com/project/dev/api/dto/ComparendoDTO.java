@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ComparendoDTO} se encarga de realizar tareas específicas.
+ * @fileoverview    {ComparendoDTO}
  *
  * @version         2.0
  *

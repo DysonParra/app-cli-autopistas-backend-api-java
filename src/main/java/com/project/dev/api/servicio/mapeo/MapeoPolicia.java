@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MapeoPolicia} se encarga de realizar tareas específicas.
+ * @fileoverview    {MapeoPolicia}
  *
  * @version         2.0
  *
