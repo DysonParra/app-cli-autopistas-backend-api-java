@@ -22,7 +22,7 @@ import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.stereotype.Component;
 
 /**
- * TODO: Definición de {@code EnsambladorRecursoConfiguracion}.
+ * TODO: Description of {@code EnsambladorRecursoConfiguracion}.
  *
  * @author Dyson Parra
  * @since 11
@@ -31,7 +31,7 @@ import org.springframework.stereotype.Component;
 public class EnsambladorRecursoConfiguracion implements RepresentationModelAssembler<ConfiguracionDTO, EntityModel<ConfiguracionDTO>> {
 
     /**
-     * TODO: Definición de {@code toModel}.
+     * TODO: Description of {@code toModel}.
      *
      * @param entidadDTO
      * @return

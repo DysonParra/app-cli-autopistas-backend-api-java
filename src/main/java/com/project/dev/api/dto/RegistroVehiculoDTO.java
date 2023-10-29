@@ -21,7 +21,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * TODO: Definición de {@code RegistroVehiculoDTO}.
+ * TODO: Description of {@code RegistroVehiculoDTO}.
  *
  * @author Dyson Parra
  * @since 11

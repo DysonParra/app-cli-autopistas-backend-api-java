@@ -20,7 +20,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
 /**
- * TODO: Definición de {@code MapeoConductor}.
+ * TODO: Description of {@code MapeoConductor}.
  *
  * @author Dyson Parra
  * @since 11

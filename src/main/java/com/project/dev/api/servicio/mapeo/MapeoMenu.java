@@ -20,7 +20,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
 /**
- * TODO: Definición de {@code MapeoMenu}.
+ * TODO: Description of {@code MapeoMenu}.
  *
  * @author Dyson Parra
  * @since 11

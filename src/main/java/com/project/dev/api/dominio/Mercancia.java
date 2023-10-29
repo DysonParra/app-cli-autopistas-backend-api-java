@@ -25,7 +25,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * TODO: Definición de {@code Mercancia}.
+ * TODO: Description of {@code Mercancia}.
  *
  * @author Dyson Parra
  * @since 11

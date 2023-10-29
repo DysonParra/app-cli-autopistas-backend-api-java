@@ -24,7 +24,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 /**
- * TODO: Definición de {@code RepositorioPesaje}.
+ * TODO: Description of {@code RepositorioPesaje}.
  *
  * @author Dyson Parra
  * @since 11

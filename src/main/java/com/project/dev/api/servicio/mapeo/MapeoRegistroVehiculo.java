@@ -20,7 +20,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
 /**
- * TODO: Definición de {@code MapeoRegistroVehiculo}.
+ * TODO: Description of {@code MapeoRegistroVehiculo}.
  *
  * @author Dyson Parra
  * @since 11

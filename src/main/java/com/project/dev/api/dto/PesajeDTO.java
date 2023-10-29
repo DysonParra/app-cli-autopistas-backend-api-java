@@ -21,7 +21,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * TODO: Definición de {@code PesajeDTO}.
+ * TODO: Description of {@code PesajeDTO}.
  *
  * @author Dyson Parra
  * @since 11

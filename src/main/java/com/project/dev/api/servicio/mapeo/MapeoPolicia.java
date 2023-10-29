@@ -20,7 +20,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
 /**
- * TODO: Definición de {@code MapeoPolicia}.
+ * TODO: Description of {@code MapeoPolicia}.
  *
  * @author Dyson Parra
  * @since 11

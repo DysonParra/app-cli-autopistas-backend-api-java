@@ -20,7 +20,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 /**
- * TODO: Definición de {@code ServicioMenu}.
+ * TODO: Description of {@code ServicioMenu}.
  *
  * @author Dyson Parra
  * @since 11

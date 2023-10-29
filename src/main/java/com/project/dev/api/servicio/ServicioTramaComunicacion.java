@@ -20,7 +20,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 /**
- * TODO: Definición de {@code ServicioTramaComunicacion}.
+ * TODO: Description of {@code ServicioTramaComunicacion}.
  *
  * @author Dyson Parra
  * @since 11

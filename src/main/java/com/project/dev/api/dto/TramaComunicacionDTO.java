@@ -20,7 +20,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * TODO: Definición de {@code TramaComunicacionDTO}.
+ * TODO: Description of {@code TramaComunicacionDTO}.
  *
  * @author Dyson Parra
  * @since 11

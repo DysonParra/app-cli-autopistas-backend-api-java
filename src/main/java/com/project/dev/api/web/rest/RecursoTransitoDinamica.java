@@ -50,7 +50,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 /**
- * TODO: Definición de {@code RecursoTransitoDinamica}.
+ * TODO: Description of {@code RecursoTransitoDinamica}.
  *
  * @author Dyson Parra
  * @since 11

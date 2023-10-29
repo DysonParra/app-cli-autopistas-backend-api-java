@@ -22,7 +22,7 @@ import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.stereotype.Component;
 
 /**
- * TODO: Definición de {@code EnsambladorRecursoConductor}.
+ * TODO: Description of {@code EnsambladorRecursoConductor}.
  *
  * @author Dyson Parra
  * @since 11
@@ -31,7 +31,7 @@ import org.springframework.stereotype.Component;
 public class EnsambladorRecursoConductor implements RepresentationModelAssembler<ConductorDTO, EntityModel<ConductorDTO>> {
 
     /**
-     * TODO: Definición de {@code toModel}.
+     * TODO: Description of {@code toModel}.
      *
      * @param entidadDTO
      * @return

@@ -22,7 +22,7 @@ import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.stereotype.Component;
 
 /**
- * TODO: Definición de {@code EnsambladorRecursoRegistroVehiculo}.
+ * TODO: Description of {@code EnsambladorRecursoRegistroVehiculo}.
  *
  * @author Dyson Parra
  * @since 11
@@ -31,7 +31,7 @@ import org.springframework.stereotype.Component;
 public class EnsambladorRecursoRegistroVehiculo implements RepresentationModelAssembler<RegistroVehiculoDTO, EntityModel<RegistroVehiculoDTO>> {
 
     /**
-     * TODO: Definición de {@code toModel}.
+     * TODO: Description of {@code toModel}.
      *
      * @param entidadDTO
      * @return

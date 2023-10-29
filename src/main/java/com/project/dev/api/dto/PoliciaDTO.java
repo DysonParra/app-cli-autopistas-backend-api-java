@@ -20,7 +20,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * TODO: Definición de {@code PoliciaDTO}.
+ * TODO: Description of {@code PoliciaDTO}.
  *
  * @author Dyson Parra
  * @since 11

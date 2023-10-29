@@ -20,7 +20,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
 /**
- * TODO: Definición de {@code MapeoMercancia}.
+ * TODO: Description of {@code MapeoMercancia}.
  *
  * @author Dyson Parra
  * @since 11

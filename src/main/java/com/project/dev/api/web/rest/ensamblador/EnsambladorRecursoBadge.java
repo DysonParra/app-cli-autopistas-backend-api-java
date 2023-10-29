@@ -22,7 +22,7 @@ import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.stereotype.Component;
 
 /**
- * TODO: Definición de {@code EnsambladorRecursoBadge}.
+ * TODO: Description of {@code EnsambladorRecursoBadge}.
  *
  * @author Dyson Parra
  * @since 11
@@ -31,7 +31,7 @@ import org.springframework.stereotype.Component;
 public class EnsambladorRecursoBadge implements RepresentationModelAssembler<BadgeDTO, EntityModel<BadgeDTO>> {
 
     /**
-     * TODO: Definición de {@code toModel}.
+     * TODO: Description of {@code toModel}.
      *
      * @param entidadDTO
      * @return

@@ -24,7 +24,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 /**
- * TODO: Definición de {@code RepositorioMenu}.
+ * TODO: Description of {@code RepositorioMenu}.
  *
  * @author Dyson Parra
  * @since 11

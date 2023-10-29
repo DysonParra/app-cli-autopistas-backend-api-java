@@ -25,7 +25,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * TODO: Definición de {@code Policia}.
+ * TODO: Description of {@code Policia}.
  *
  * @author Dyson Parra
  * @since 11

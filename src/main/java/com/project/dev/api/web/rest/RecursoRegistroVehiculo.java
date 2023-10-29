@@ -50,7 +50,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 /**
- * TODO: Definición de {@code RecursoRegistroVehiculo}.
+ * TODO: Description of {@code RecursoRegistroVehiculo}.
  *
  * @author Dyson Parra
  * @since 11
@@ -161,7 +161,7 @@ public class RecursoRegistroVehiculo {
     }
 
     /**
-     * TODO: Definición de {@code ObtenerImpresion}.
+     * TODO: Description of {@code ObtenerImpresion}.
      *
      * @param id
      * @return

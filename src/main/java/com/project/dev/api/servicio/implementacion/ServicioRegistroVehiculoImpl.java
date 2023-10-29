@@ -32,7 +32,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * TODO: Definición de {@code ServicioRegistroVehiculoImpl}.
+ * TODO: Description of {@code ServicioRegistroVehiculoImpl}.
  *
  * @author Dyson Parra
  * @since 11
@@ -48,7 +48,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     private final MapeoRegistroVehiculo mapeoEntidad = Mappers.getMapper(MapeoRegistroVehiculo.class);
 
     /**
-     * TODO: Definición de {@code ServicioRegistroVehiculoImpl}.
+     * TODO: Description of {@code ServicioRegistroVehiculoImpl}.
      *
      * @param repositorioEntidad
      */
@@ -57,7 +57,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Definición de {@code guardarActualizar}.
+     * TODO: Description of {@code guardarActualizar}.
      *
      */
     @Override
@@ -73,7 +73,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Definición de {@code obtenerEntidades}.
+     * TODO: Description of {@code obtenerEntidades}.
      *
      */
     @Override
@@ -83,7 +83,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Definición de {@code buscarEntidad}.
+     * TODO: Description of {@code buscarEntidad}.
      *
      */
     @Override
@@ -95,7 +95,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Definición de {@code obtenerEntidades}.
+     * TODO: Description of {@code obtenerEntidades}.
      *
      * @param strId
      * @return
@@ -108,7 +108,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Definición de {@code ObtenerImpresion}.
+     * TODO: Description of {@code ObtenerImpresion}.
      *
      * @param strId
      * @return
@@ -121,7 +121,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Definición de {@code obtenerEntidades}.
+     * TODO: Description of {@code obtenerEntidades}.
      *
      * @param pageable
      * @return
@@ -135,7 +135,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Definición de {@code eliminarEntidad}.
+     * TODO: Description of {@code eliminarEntidad}.
      *
      */
     @Override
@@ -145,7 +145,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Definición de {@code query}.
+     * TODO: Description of {@code query}.
      *
      * @param query
      * @param pageable

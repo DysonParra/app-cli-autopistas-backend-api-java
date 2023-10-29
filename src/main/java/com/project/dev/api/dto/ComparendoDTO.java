@@ -20,7 +20,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * TODO: Definición de {@code ComparendoDTO}.
+ * TODO: Description of {@code ComparendoDTO}.
  *
  * @author Dyson Parra
  * @since 11

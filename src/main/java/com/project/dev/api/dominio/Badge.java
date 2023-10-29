@@ -25,7 +25,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * TODO: Definición de {@code Badge}.
+ * TODO: Description of {@code Badge}.
  *
  * @author Dyson Parra
  * @since 11

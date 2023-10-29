@@ -15,7 +15,7 @@
 package com.project.dev.api.repositorio;
 
 /**
- * TODO: Definición de {@code RepositorioGenerico}.
+ * TODO: Description of {@code RepositorioGenerico}.
  *
  * @param <T>
  *
