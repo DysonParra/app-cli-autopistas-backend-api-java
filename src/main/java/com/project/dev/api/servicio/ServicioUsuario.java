@@ -23,7 +23,7 @@ import org.springframework.data.domain.Pageable;
  * TODO: Definición de {@code ServicioUsuario}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public interface ServicioUsuario extends ServicioGenerico<UsuarioDTO> {
 

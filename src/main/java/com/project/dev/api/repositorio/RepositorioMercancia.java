@@ -27,7 +27,7 @@ import org.springframework.stereotype.Repository;
  * TODO: Definición de {@code RepositorioMercancia}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 @Repository
 public interface RepositorioMercancia extends JpaRepository<Mercancia, Long> {

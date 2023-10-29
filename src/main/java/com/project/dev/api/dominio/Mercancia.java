@@ -28,7 +28,7 @@ import lombok.NoArgsConstructor;
  * TODO: Definición de {@code Mercancia}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 @Entity
 //@Table(name = "Mercancia", schema = "cardinal", catalog = "cardinal")

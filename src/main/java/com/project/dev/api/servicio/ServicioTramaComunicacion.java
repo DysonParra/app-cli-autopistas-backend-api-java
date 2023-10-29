@@ -23,7 +23,7 @@ import org.springframework.data.domain.Pageable;
  * TODO: Definición de {@code ServicioTramaComunicacion}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 public interface ServicioTramaComunicacion extends ServicioGenerico<TramaComunicacionDTO> {
 

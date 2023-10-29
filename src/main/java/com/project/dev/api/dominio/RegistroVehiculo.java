@@ -34,7 +34,7 @@ import lombok.NoArgsConstructor;
  * TODO: Definición de {@code RegistroVehiculo}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 @Entity
 //@Table(name = "RegistroVehiculo", schema = "cardinal", catalog = "cardinal")

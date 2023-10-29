@@ -31,7 +31,7 @@ import lombok.NoArgsConstructor;
  * TODO: Definición de {@code Pesaje}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 @Entity
 //@Table(name = "Pesaje", schema = "cardinal", catalog = "cardinal")

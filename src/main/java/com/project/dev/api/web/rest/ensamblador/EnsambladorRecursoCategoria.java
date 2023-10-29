@@ -25,7 +25,7 @@ import org.springframework.stereotype.Component;
  * TODO: Definición de {@code EnsambladorRecursoCategoria}.
  *
  * @author Dyson Parra
- * @since 1.8
+ * @since 11
  */
 @Component
 public class EnsambladorRecursoCategoria implements RepresentationModelAssembler<CategoriaDTO, EntityModel<CategoriaDTO>> {
