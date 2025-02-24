@@ -28,7 +28,7 @@ import lombok.NoArgsConstructor;
  * TODO: Description of {@code Policia}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 @Entity
 //@Table(name = "Policia", schema = "cardinal", catalog = "cardinal")

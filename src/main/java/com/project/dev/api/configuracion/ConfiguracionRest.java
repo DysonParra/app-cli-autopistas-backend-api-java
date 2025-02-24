@@ -24,7 +24,7 @@ import org.springframework.web.filter.CorsFilter;
  * TODO: Description of {@code ConfiguracionRest}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 @Configuration
 public class ConfiguracionRest {

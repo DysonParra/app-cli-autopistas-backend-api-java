@@ -35,7 +35,7 @@ import org.springframework.transaction.annotation.Transactional;
  * TODO: Description of {@code ServicioRegistroVehiculoImpl}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 @Service
 @Transactional

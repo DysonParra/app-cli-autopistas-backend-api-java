@@ -23,7 +23,7 @@ import org.springframework.data.domain.Pageable;
  * TODO: Description of {@code ServicioRegistroVehiculo}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public interface ServicioRegistroVehiculo extends ServicioGenerico<RegistroVehiculoDTO> {
 

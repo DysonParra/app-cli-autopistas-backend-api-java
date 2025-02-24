@@ -27,7 +27,7 @@ import org.springframework.stereotype.Repository;
  * TODO: Description of {@code RepositorioTramaComunicacion}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 @Repository
 public interface RepositorioTramaComunicacion extends JpaRepository<TramaComunicacion, Long> {

@@ -25,7 +25,7 @@ import org.springframework.stereotype.Component;
  * TODO: Description of {@code EnsambladorRecursoConductor}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 @Component
 public class EnsambladorRecursoConductor implements RepresentationModelAssembler<ConductorDTO, EntityModel<ConductorDTO>> {

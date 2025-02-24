@@ -24,7 +24,7 @@ import lombok.NoArgsConstructor;
  * TODO: Description of {@code RegistroVehiculoDTO}.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 @AllArgsConstructor
 @Builder
