@@ -31,7 +31,7 @@ import org.springframework.stereotype.Component;
 public class EnsambladorRecursoConductor implements RepresentationModelAssembler<ConductorDTO, EntityModel<ConductorDTO>> {
 
     /**
-     * TODO: Description of {@code toModel}.
+     * TODO: Description of method {@code toModel}.
      *
      * @param entidadDTO
      * @return

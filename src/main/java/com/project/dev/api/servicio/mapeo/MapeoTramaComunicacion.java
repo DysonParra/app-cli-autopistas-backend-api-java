@@ -29,7 +29,7 @@ import org.mapstruct.Mapping;
 public interface MapeoTramaComunicacion extends MapeoEntidadesGenerico<TramaComunicacionDTO, TramaComunicacion> {
 
     /**
-     * TODO: Description of {@code obtenerDto}.
+     * TODO: Description of method {@code obtenerDto}.
      *
      * @param entidad
      * @return 
@@ -39,7 +39,7 @@ public interface MapeoTramaComunicacion extends MapeoEntidadesGenerico<TramaComu
     public TramaComunicacionDTO obtenerDto(TramaComunicacion entidad);
 
     /**
-     * TODO: Description of {@code obtenerEntidad}.
+     * TODO: Description of method {@code obtenerEntidad}.
      *
      * @param entidadDTO
      * @return 
@@ -49,7 +49,7 @@ public interface MapeoTramaComunicacion extends MapeoEntidadesGenerico<TramaComu
     public TramaComunicacion obtenerEntidad(TramaComunicacionDTO entidadDTO);
 
     /**
-     * TODO: Description of {@code desdeId}.
+     * TODO: Description of method {@code desdeId}.
      *
      * @param intId
      * @return 

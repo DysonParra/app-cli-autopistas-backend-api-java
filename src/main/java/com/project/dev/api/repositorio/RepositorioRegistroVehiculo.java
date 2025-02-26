@@ -33,7 +33,7 @@ import org.springframework.stereotype.Repository;
 public interface RepositorioRegistroVehiculo extends JpaRepository<RegistroVehiculo, Long> {
 
     /**
-     * TODO: Description of {@code findByIntTiqueteNro}.
+     * TODO: Description of method {@code findByIntTiqueteNro}.
      *
      * @param id
      * @return 
@@ -41,7 +41,7 @@ public interface RepositorioRegistroVehiculo extends JpaRepository<RegistroVehic
     public List<RegistroVehiculo> findByIntTiqueteNro(Long id);
 
     /**
-     * TODO: Description of {@code buscarRegistroVehiculo}.
+     * TODO: Description of method {@code buscarRegistroVehiculo}.
      *
      * @param strBusqueda
      * @return 
@@ -50,7 +50,7 @@ public interface RepositorioRegistroVehiculo extends JpaRepository<RegistroVehic
     public List<RegistroVehiculo> buscarRegistroVehiculo(@Param("strBusqueda") String strBusqueda);
 
     /**
-     * TODO: Description of {@code buscarEntidades}.
+     * TODO: Description of method {@code buscarEntidades}.
      *
      * @param strBusqueda
      * @param pageable

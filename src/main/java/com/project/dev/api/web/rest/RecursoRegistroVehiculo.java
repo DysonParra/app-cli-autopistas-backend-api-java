@@ -65,7 +65,7 @@ public class RecursoRegistroVehiculo {
     private final EnsambladorRecursoRegistroVehiculo ensambladorRecursoEntidad;
 
     /**
-     * TODO: Description of {@code RecursoRegistroVehiculo}.
+     * TODO: Description of method {@code RecursoRegistroVehiculo}.
      *
      * @param servicioEntidad
      * @param ensambladorRecursoEntidad
@@ -77,7 +77,7 @@ public class RecursoRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code obtenerEntidades}.
+     * TODO: Description of method {@code obtenerEntidades}.
      *
      * @param pageable
      */
@@ -102,7 +102,7 @@ public class RecursoRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code obtenerEntidades}.
+     * TODO: Description of method {@code obtenerEntidades}.
      *
      * @param expresion
      * @param pageable
@@ -128,7 +128,7 @@ public class RecursoRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code obtenerEntidades}.
+     * TODO: Description of method {@code obtenerEntidades}.
      *
      */
     @ApiOperation(value = "Lista las [Entidades] existentes", response = Iterable.class)
@@ -157,7 +157,7 @@ public class RecursoRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code obtenerEntidades}.
+     * TODO: Description of method {@code obtenerEntidades}.
      *
      * @param id
      */
@@ -187,7 +187,7 @@ public class RecursoRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code ObtenerImpresion}.
+     * TODO: Description of method {@code ObtenerImpresion}.
      *
      * @param id
      * @return
@@ -211,7 +211,7 @@ public class RecursoRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code buscarEntidad}.
+     * TODO: Description of method {@code buscarEntidad}.
      *
      * @param id
      */
@@ -239,7 +239,7 @@ public class RecursoRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code guardarEntidad}.
+     * TODO: Description of method {@code guardarEntidad}.
      *
      * @param entidadDTO
      */
@@ -268,7 +268,7 @@ public class RecursoRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code actualizarEntidad}.
+     * TODO: Description of method {@code actualizarEntidad}.
      *
      * @param entidadDTO
      * @param id
@@ -286,7 +286,7 @@ public class RecursoRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code eliminarEntidad}.
+     * TODO: Description of method {@code eliminarEntidad}.
      *
      * @param id
      */

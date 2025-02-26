@@ -33,7 +33,7 @@ import org.springframework.stereotype.Repository;
 public interface RepositorioBadge extends JpaRepository<Badge, String> {
 
     /**
-     * TODO: Description of {@code findByStrTitle}.
+     * TODO: Description of method {@code findByStrTitle}.
      *
      * @param id
      * @return 
@@ -41,7 +41,7 @@ public interface RepositorioBadge extends JpaRepository<Badge, String> {
     public List<Badge> findByStrTitle(String id);
 
     /**
-     * TODO: Description of {@code buscarEntidades}.
+     * TODO: Description of method {@code buscarEntidades}.
      *
      * @param strBusqueda
      * @param pageable

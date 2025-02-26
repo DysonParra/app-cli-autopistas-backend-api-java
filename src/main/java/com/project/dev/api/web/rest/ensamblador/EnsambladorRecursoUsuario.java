@@ -31,7 +31,7 @@ import org.springframework.stereotype.Component;
 public class EnsambladorRecursoUsuario implements RepresentationModelAssembler<UsuarioDTO, EntityModel<UsuarioDTO>> {
 
     /**
-     * TODO: Description of {@code toModel}.
+     * TODO: Description of method {@code toModel}.
      *
      * @param entidadDTO
      * @return

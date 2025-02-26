@@ -29,7 +29,7 @@ import org.mapstruct.Mapping;
 public interface MapeoUsuario extends MapeoEntidadesGenerico<UsuarioDTO, Usuario> {
 
     /**
-     * TODO: Description of {@code obtenerDto}.
+     * TODO: Description of method {@code obtenerDto}.
      *
      * @param entidad
      * @return 
@@ -39,7 +39,7 @@ public interface MapeoUsuario extends MapeoEntidadesGenerico<UsuarioDTO, Usuario
     public UsuarioDTO obtenerDto(Usuario entidad);
 
     /**
-     * TODO: Description of {@code obtenerEntidad}.
+     * TODO: Description of method {@code obtenerEntidad}.
      *
      * @param entidadDTO
      * @return 
@@ -49,7 +49,7 @@ public interface MapeoUsuario extends MapeoEntidadesGenerico<UsuarioDTO, Usuario
     public Usuario obtenerEntidad(UsuarioDTO entidadDTO);
 
     /**
-     * TODO: Description of {@code desdeId}.
+     * TODO: Description of method {@code desdeId}.
      *
      * @param intId
      * @return 

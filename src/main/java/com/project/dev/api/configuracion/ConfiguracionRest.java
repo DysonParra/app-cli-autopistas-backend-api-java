@@ -30,7 +30,7 @@ import org.springframework.web.filter.CorsFilter;
 public class ConfiguracionRest {
 
     /**
-     * TODO: Description of {@code corsFilter}.
+     * TODO: Description of method {@code corsFilter}.
      *
      * @return
      */

@@ -29,7 +29,7 @@ import org.mapstruct.Mapping;
 public interface MapeoBadge extends MapeoEntidadesGenerico<BadgeDTO, Badge> {
 
     /**
-     * TODO: Description of {@code obtenerDto}.
+     * TODO: Description of method {@code obtenerDto}.
      *
      * @param entidad
      * @return 
@@ -40,7 +40,7 @@ public interface MapeoBadge extends MapeoEntidadesGenerico<BadgeDTO, Badge> {
     public BadgeDTO obtenerDto(Badge entidad);
 
     /**
-     * TODO: Description of {@code obtenerEntidad}.
+     * TODO: Description of method {@code obtenerEntidad}.
      *
      * @param entidadDTO
      * @return 
@@ -51,7 +51,7 @@ public interface MapeoBadge extends MapeoEntidadesGenerico<BadgeDTO, Badge> {
     public Badge obtenerEntidad(BadgeDTO entidadDTO);
 
     /**
-     * TODO: Description of {@code desdeId}.
+     * TODO: Description of method {@code desdeId}.
      *
      * @param intId
      * @return 

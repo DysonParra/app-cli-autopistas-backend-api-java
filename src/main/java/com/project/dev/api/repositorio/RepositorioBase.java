@@ -37,7 +37,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     private Class<T> type;
 
     /**
-     * TODO: Description of {@code getEntityManager}.
+     * TODO: Description of method {@code getEntityManager}.
      *
      * @return
      */
@@ -46,7 +46,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Description of {@code setEntityManager}.
+     * TODO: Description of method {@code setEntityManager}.
      *
      * @param entityManager
      */
@@ -56,7 +56,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Description of {@code RepositorioBase}.
+     * TODO: Description of method {@code RepositorioBase}.
      *
      */
     public RepositorioBase() {
@@ -66,7 +66,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Description of {@code guardarDatos}.
+     * TODO: Description of method {@code guardarDatos}.
      *
      * @param t
      * @return
@@ -78,7 +78,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Description of {@code eliminarDatos}.
+     * TODO: Description of method {@code eliminarDatos}.
      *
      * @param objeto
      */
@@ -88,7 +88,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Description of {@code obtenerDatos}.
+     * TODO: Description of method {@code obtenerDatos}.
      *
      * @param id
      * @return
@@ -99,7 +99,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Description of {@code actualizarCambios}.
+     * TODO: Description of method {@code actualizarCambios}.
      *
      * @param t
      * @return
@@ -110,7 +110,7 @@ public class RepositorioBase<T> implements RepositorioGenerico<T> {
     }
 
     /**
-     * TODO: Description of {@code obtenerTodos}.
+     * TODO: Description of method {@code obtenerTodos}.
      *
      * @return
      */

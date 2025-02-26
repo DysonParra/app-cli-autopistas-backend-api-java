@@ -35,7 +35,7 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     private final Logger log = LoggerFactory.getLogger(type);
 
     /**
-     * TODO: Description of {@code ServicioImplementacionBase}.
+     * TODO: Description of method {@code ServicioImplementacionBase}.
      *
      */
     public ServicioImplementacionBase() {
@@ -45,7 +45,7 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     }
 
     /**
-     * TODO: Description of {@code guardarActualizar}.
+     * TODO: Description of method {@code guardarActualizar}.
      *
      * @param entidadDTO
      * @return
@@ -57,7 +57,7 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     }
 
     /**
-     * TODO: Description of {@code obtenerEntidades}.
+     * TODO: Description of method {@code obtenerEntidades}.
      *
      * @return
      * @throws java.lang.Exception
@@ -68,7 +68,7 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     }
 
     /**
-     * TODO: Description of {@code buscarEntidad}.
+     * TODO: Description of method {@code buscarEntidad}.
      *
      * @param id
      * @return
@@ -80,7 +80,7 @@ public class ServicioImplementacionBase<T> implements ServicioGenerico<T> {
     }
 
     /**
-     * TODO: Description of {@code eliminarEntidad}.
+     * TODO: Description of method {@code eliminarEntidad}.
      *
      * @param id
      * @throws java.lang.Exception

@@ -31,7 +31,7 @@ import org.springframework.stereotype.Component;
 public class EnsambladorRecursoComparendo implements RepresentationModelAssembler<ComparendoDTO, EntityModel<ComparendoDTO>> {
 
     /**
-     * TODO: Description of {@code toModel}.
+     * TODO: Description of method {@code toModel}.
      *
      * @param entidadDTO
      * @return

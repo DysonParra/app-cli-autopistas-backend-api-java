@@ -29,7 +29,7 @@ import org.mapstruct.Mapping;
 public interface MapeoMenu extends MapeoEntidadesGenerico<MenuDTO, Menu> {
 
     /**
-     * TODO: Description of {@code obtenerDto}.
+     * TODO: Description of method {@code obtenerDto}.
      *
      * @param entidad
      * @return 
@@ -49,7 +49,7 @@ public interface MapeoMenu extends MapeoEntidadesGenerico<MenuDTO, Menu> {
     public MenuDTO obtenerDto(Menu entidad);
 
     /**
-     * TODO: Description of {@code obtenerEntidad}.
+     * TODO: Description of method {@code obtenerEntidad}.
      *
      * @param entidadDTO
      * @return 
@@ -69,7 +69,7 @@ public interface MapeoMenu extends MapeoEntidadesGenerico<MenuDTO, Menu> {
     public Menu obtenerEntidad(MenuDTO entidadDTO);
 
     /**
-     * TODO: Description of {@code desdeId}.
+     * TODO: Description of method {@code desdeId}.
      *
      * @param intId
      * @return 

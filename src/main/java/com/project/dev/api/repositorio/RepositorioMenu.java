@@ -33,7 +33,7 @@ import org.springframework.stereotype.Repository;
 public interface RepositorioMenu extends JpaRepository<Menu, String> {
 
     /**
-     * TODO: Description of {@code findByStrId}.
+     * TODO: Description of method {@code findByStrId}.
      *
      * @param id
      * @return 
@@ -41,7 +41,7 @@ public interface RepositorioMenu extends JpaRepository<Menu, String> {
     public List<Menu> findByStrId(String id);
 
     /**
-     * TODO: Description of {@code buscarEntidades}.
+     * TODO: Description of method {@code buscarEntidades}.
      *
      * @param strBusqueda
      * @param pageable

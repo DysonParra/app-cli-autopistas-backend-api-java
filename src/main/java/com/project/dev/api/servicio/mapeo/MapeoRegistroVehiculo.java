@@ -29,7 +29,7 @@ import org.mapstruct.Mapping;
 public interface MapeoRegistroVehiculo extends MapeoEntidadesGenerico<RegistroVehiculoDTO, RegistroVehiculo> {
 
     /**
-     * TODO: Description of {@code obtenerDto}.
+     * TODO: Description of method {@code obtenerDto}.
      *
      * @param entidad
      * @return 
@@ -39,7 +39,7 @@ public interface MapeoRegistroVehiculo extends MapeoEntidadesGenerico<RegistroVe
     public RegistroVehiculoDTO obtenerDto(RegistroVehiculo entidad);
 
     /**
-     * TODO: Description of {@code obtenerEntidad}.
+     * TODO: Description of method {@code obtenerEntidad}.
      *
      * @param entidadDTO
      * @return 
@@ -49,7 +49,7 @@ public interface MapeoRegistroVehiculo extends MapeoEntidadesGenerico<RegistroVe
     public RegistroVehiculo obtenerEntidad(RegistroVehiculoDTO entidadDTO);
 
     /**
-     * TODO: Description of {@code desdeId}.
+     * TODO: Description of method {@code desdeId}.
      *
      * @param intId
      * @return 

@@ -25,7 +25,7 @@ package com.project.dev.api.repositorio;
 public interface RepositorioGenerico<T> {
 
     /**
-     * TODO: Description of {@code guardarDatos}.
+     * TODO: Description of method {@code guardarDatos}.
      *
      * @param t
      * @return 
@@ -33,14 +33,14 @@ public interface RepositorioGenerico<T> {
     public T guardarDatos(T t);
 
     /**
-     * TODO: Description of {@code eliminarDatos}.
+     * TODO: Description of method {@code eliminarDatos}.
      *
      * @param t
      */
     public void eliminarDatos(T t);
 
     /**
-     * TODO: Description of {@code obtenerDatos}.
+     * TODO: Description of method {@code obtenerDatos}.
      *
      * @param t
      * @return 
@@ -48,7 +48,7 @@ public interface RepositorioGenerico<T> {
     public T obtenerDatos(T t);
 
     /**
-     * TODO: Description of {@code actualizarCambios}.
+     * TODO: Description of method {@code actualizarCambios}.
      *
      * @param t
      * @return 
@@ -56,7 +56,7 @@ public interface RepositorioGenerico<T> {
     public T actualizarCambios(T t);
 
     /**
-     * TODO: Description of {@code obtenerTodos}.
+     * TODO: Description of method {@code obtenerTodos}.
      *
      * @return 
      */

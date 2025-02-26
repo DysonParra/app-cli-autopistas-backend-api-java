@@ -29,7 +29,7 @@ import org.mapstruct.Mapping;
 public interface MapeoPesaje extends MapeoEntidadesGenerico<PesajeDTO, Pesaje> {
 
     /**
-     * TODO: Description of {@code obtenerDto}.
+     * TODO: Description of method {@code obtenerDto}.
      *
      * @param entidad
      * @return 
@@ -39,7 +39,7 @@ public interface MapeoPesaje extends MapeoEntidadesGenerico<PesajeDTO, Pesaje> {
     public PesajeDTO obtenerDto(Pesaje entidad);
 
     /**
-     * TODO: Description of {@code obtenerEntidad}.
+     * TODO: Description of method {@code obtenerEntidad}.
      *
      * @param entidadDTO
      * @return 
@@ -49,7 +49,7 @@ public interface MapeoPesaje extends MapeoEntidadesGenerico<PesajeDTO, Pesaje> {
     public Pesaje obtenerEntidad(PesajeDTO entidadDTO);
 
     /**
-     * TODO: Description of {@code desdeId}.
+     * TODO: Description of method {@code desdeId}.
      *
      * @param intId
      * @return 

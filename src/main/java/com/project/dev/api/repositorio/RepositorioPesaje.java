@@ -33,7 +33,7 @@ import org.springframework.stereotype.Repository;
 public interface RepositorioPesaje extends JpaRepository<Pesaje, Long> {
 
     /**
-     * TODO: Description of {@code findByIntId}.
+     * TODO: Description of method {@code findByIntId}.
      *
      * @param id
      * @return 
@@ -41,7 +41,7 @@ public interface RepositorioPesaje extends JpaRepository<Pesaje, Long> {
     public List<Pesaje> findByIntId(Long id);
 
     /**
-     * TODO: Description of {@code buscarEntidades}.
+     * TODO: Description of method {@code buscarEntidades}.
      *
      * @param strBusqueda
      * @param pageable

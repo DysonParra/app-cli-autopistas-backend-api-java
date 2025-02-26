@@ -33,7 +33,7 @@ import org.springframework.stereotype.Repository;
 public interface RepositorioTransitoDinamica extends JpaRepository<TransitoDinamica, Long> {
 
     /**
-     * TODO: Description of {@code findByIntIdDinamica}.
+     * TODO: Description of method {@code findByIntIdDinamica}.
      *
      * @param id
      * @return 
@@ -41,7 +41,7 @@ public interface RepositorioTransitoDinamica extends JpaRepository<TransitoDinam
     public List<TransitoDinamica> findByIntIdDinamica(Long id);
 
     /**
-     * TODO: Description of {@code findByBitBorrado}.
+     * TODO: Description of method {@code findByBitBorrado}.
      *
      * @param bit
      * @return 
@@ -49,7 +49,7 @@ public interface RepositorioTransitoDinamica extends JpaRepository<TransitoDinam
     public List<TransitoDinamica> findByBitBorrado(Boolean bit);
 
     /**
-     * TODO: Description of {@code findByBitBorrado}.
+     * TODO: Description of method {@code findByBitBorrado}.
      *
      * @param pageable
      * @param bit
@@ -57,7 +57,7 @@ public interface RepositorioTransitoDinamica extends JpaRepository<TransitoDinam
     public Page<TransitoDinamica> findByBitBorrado(Pageable pageable, Boolean bit);
 
     /**
-     * TODO: Description of {@code buscarEntidades}.
+     * TODO: Description of method {@code buscarEntidades}.
      *
      * @param strBusqueda
      * @param pageable

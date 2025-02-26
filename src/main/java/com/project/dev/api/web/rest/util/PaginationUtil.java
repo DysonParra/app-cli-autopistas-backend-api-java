@@ -29,14 +29,14 @@ import org.springframework.web.util.UriComponentsBuilder;
 public final class PaginationUtil {
 
     /**
-     * TODO: Description of {@code PaginationUtil}.
+     * TODO: Description of method {@code PaginationUtil}.
      *
      */
     private PaginationUtil() {
     }
 
     /**
-     * TODO: Description of {@code generatePaginationHttpHeaders}.
+     * TODO: Description of method {@code generatePaginationHttpHeaders}.
      *
      * @param page
      * @param baseUrl
@@ -66,7 +66,7 @@ public final class PaginationUtil {
     }
 
     /**
-     * TODO: Description of {@code generateUri}.
+     * TODO: Description of method {@code generateUri}.
      *
      * @param baseUrl
      * @param size
@@ -78,7 +78,7 @@ public final class PaginationUtil {
     }
 
     /**
-     * TODO: Description of {@code generateSearchPaginationHttpHeaders}.
+     * TODO: Description of method {@code generateSearchPaginationHttpHeaders}.
      *
      * @param query
      * @param baseUrl

@@ -29,7 +29,7 @@ import org.mapstruct.Mapping;
 public interface MapeoComparendo extends MapeoEntidadesGenerico<ComparendoDTO, Comparendo> {
 
     /**
-     * TODO: Description of {@code obtenerDto}.
+     * TODO: Description of method {@code obtenerDto}.
      *
      * @param entidad
      * @return 
@@ -39,7 +39,7 @@ public interface MapeoComparendo extends MapeoEntidadesGenerico<ComparendoDTO, C
     public ComparendoDTO obtenerDto(Comparendo entidad);
 
     /**
-     * TODO: Description of {@code obtenerEntidad}.
+     * TODO: Description of method {@code obtenerEntidad}.
      *
      * @param entidadDTO
      * @return 
@@ -49,7 +49,7 @@ public interface MapeoComparendo extends MapeoEntidadesGenerico<ComparendoDTO, C
     public Comparendo obtenerEntidad(ComparendoDTO entidadDTO);
 
     /**
-     * TODO: Description of {@code desdeId}.
+     * TODO: Description of method {@code desdeId}.
      *
      * @param intId
      * @return 

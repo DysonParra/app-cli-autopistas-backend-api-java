@@ -33,7 +33,7 @@ import org.springframework.stereotype.Repository;
 public interface RepositorioTramaComunicacion extends JpaRepository<TramaComunicacion, Long> {
 
     /**
-     * TODO: Description of {@code findByIntIdTrama}.
+     * TODO: Description of method {@code findByIntIdTrama}.
      *
      * @param id
      * @return 
@@ -41,7 +41,7 @@ public interface RepositorioTramaComunicacion extends JpaRepository<TramaComunic
     public List<TramaComunicacion> findByIntIdTrama(Long id);
 
     /**
-     * TODO: Description of {@code buscarEntidades}.
+     * TODO: Description of method {@code buscarEntidades}.
      *
      * @param strBusqueda
      * @param pageable

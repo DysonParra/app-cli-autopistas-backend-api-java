@@ -33,7 +33,7 @@ import org.springframework.stereotype.Repository;
 public interface RepositorioMercancia extends JpaRepository<Mercancia, Long> {
 
     /**
-     * TODO: Description of {@code findByIntIdMercancia}.
+     * TODO: Description of method {@code findByIntIdMercancia}.
      *
      * @param id
      * @return 
@@ -41,7 +41,7 @@ public interface RepositorioMercancia extends JpaRepository<Mercancia, Long> {
     public List<Mercancia> findByIntIdMercancia(Long id);
 
     /**
-     * TODO: Description of {@code buscarEntidades}.
+     * TODO: Description of method {@code buscarEntidades}.
      *
      * @param strBusqueda
      * @param pageable

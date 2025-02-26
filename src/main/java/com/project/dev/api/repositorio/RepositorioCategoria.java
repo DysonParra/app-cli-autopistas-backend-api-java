@@ -33,7 +33,7 @@ import org.springframework.stereotype.Repository;
 public interface RepositorioCategoria extends JpaRepository<Categoria, Long> {
 
     /**
-     * TODO: Description of {@code findByIntIdCategoria}.
+     * TODO: Description of method {@code findByIntIdCategoria}.
      *
      * @param id
      * @return 
@@ -41,7 +41,7 @@ public interface RepositorioCategoria extends JpaRepository<Categoria, Long> {
     public List<Categoria> findByIntIdCategoria(Long id);
 
     /**
-     * TODO: Description of {@code buscarEntidades}.
+     * TODO: Description of method {@code buscarEntidades}.
      *
      * @param strBusqueda
      * @param pageable

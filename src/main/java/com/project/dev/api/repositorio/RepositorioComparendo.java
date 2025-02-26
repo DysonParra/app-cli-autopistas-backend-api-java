@@ -33,7 +33,7 @@ import org.springframework.stereotype.Repository;
 public interface RepositorioComparendo extends JpaRepository<Comparendo, Long> {
 
     /**
-     * TODO: Description of {@code findByIntIdComparendo}.
+     * TODO: Description of method {@code findByIntIdComparendo}.
      *
      * @param id
      * @return 
@@ -41,7 +41,7 @@ public interface RepositorioComparendo extends JpaRepository<Comparendo, Long> {
     public List<Comparendo> findByIntIdComparendo(Long id);
 
     /**
-     * TODO: Description of {@code buscarEntidades}.
+     * TODO: Description of method {@code buscarEntidades}.
      *
      * @param strBusqueda
      * @param pageable

@@ -33,7 +33,7 @@ import org.springframework.stereotype.Repository;
 public interface RepositorioConductor extends JpaRepository<Conductor, Long> {
 
     /**
-     * TODO: Description of {@code findByIntCedulaConductor}.
+     * TODO: Description of method {@code findByIntCedulaConductor}.
      *
      * @param id
      * @return 
@@ -41,7 +41,7 @@ public interface RepositorioConductor extends JpaRepository<Conductor, Long> {
     public List<Conductor> findByIntCedulaConductor(Long id);
 
     /**
-     * TODO: Description of {@code buscarEntidades}.
+     * TODO: Description of method {@code buscarEntidades}.
      *
      * @param strBusqueda
      * @param pageable

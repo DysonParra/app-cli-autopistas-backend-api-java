@@ -28,7 +28,7 @@ import org.springframework.data.domain.Pageable;
 public interface ServicioPesaje extends ServicioGenerico<PesajeDTO> {
 
     /**
-     * TODO: Description of {@code obtenerEntidades}.
+     * TODO: Description of method {@code obtenerEntidades}.
      *
      * @param id
      * @return 
@@ -37,7 +37,7 @@ public interface ServicioPesaje extends ServicioGenerico<PesajeDTO> {
     public List<PesajeDTO> obtenerEntidades(String id) throws Exception;
 
     /**
-     * TODO: Description of {@code obtenerEntidades}.
+     * TODO: Description of method {@code obtenerEntidades}.
      *
      * @param pageable
      * @throws java.lang.Exception
@@ -45,7 +45,7 @@ public interface ServicioPesaje extends ServicioGenerico<PesajeDTO> {
     public Page<PesajeDTO> obtenerEntidades(Pageable pageable) throws Exception;
 
     /**
-     * TODO: Description of {@code query}.
+     * TODO: Description of method {@code query}.
      *
      * @param query
      * @param pageable

@@ -48,7 +48,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     private final MapeoRegistroVehiculo mapeoEntidad = Mappers.getMapper(MapeoRegistroVehiculo.class);
 
     /**
-     * TODO: Description of {@code ServicioRegistroVehiculoImpl}.
+     * TODO: Description of method {@code ServicioRegistroVehiculoImpl}.
      *
      * @param repositorioEntidad
      */
@@ -57,7 +57,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code guardarActualizar}.
+     * TODO: Description of method {@code guardarActualizar}.
      *
      */
     @Override
@@ -73,7 +73,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code obtenerEntidades}.
+     * TODO: Description of method {@code obtenerEntidades}.
      *
      */
     @Override
@@ -83,7 +83,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code buscarEntidad}.
+     * TODO: Description of method {@code buscarEntidad}.
      *
      */
     @Override
@@ -95,7 +95,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code obtenerEntidades}.
+     * TODO: Description of method {@code obtenerEntidades}.
      *
      * @param strId
      * @return
@@ -108,7 +108,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code ObtenerImpresion}.
+     * TODO: Description of method {@code ObtenerImpresion}.
      *
      * @param strId
      * @return
@@ -121,7 +121,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code obtenerEntidades}.
+     * TODO: Description of method {@code obtenerEntidades}.
      *
      * @param pageable
      * @return
@@ -135,7 +135,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code eliminarEntidad}.
+     * TODO: Description of method {@code eliminarEntidad}.
      *
      */
     @Override
@@ -145,7 +145,7 @@ public class ServicioRegistroVehiculoImpl implements ServicioRegistroVehiculo {
     }
 
     /**
-     * TODO: Description of {@code query}.
+     * TODO: Description of method {@code query}.
      *
      * @param query
      * @param pageable

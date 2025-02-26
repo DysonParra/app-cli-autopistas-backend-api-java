@@ -33,7 +33,7 @@ import org.springframework.stereotype.Repository;
 public interface RepositorioUsuario extends JpaRepository<Usuario, Long> {
 
     /**
-     * TODO: Description of {@code findByIntCedulaUsuario}.
+     * TODO: Description of method {@code findByIntCedulaUsuario}.
      *
      * @param id
      * @return 
@@ -41,7 +41,7 @@ public interface RepositorioUsuario extends JpaRepository<Usuario, Long> {
     public List<Usuario> findByIntCedulaUsuario(Long id);
 
     /**
-     * TODO: Description of {@code buscarEntidades}.
+     * TODO: Description of method {@code buscarEntidades}.
      *
      * @param strBusqueda
      * @param pageable
