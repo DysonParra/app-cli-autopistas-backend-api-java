@@ -27,11 +27,37 @@ import org.springframework.data.domain.Pageable;
  */
 public interface ServicioRegistroVehiculo extends ServicioGenerico<RegistroVehiculoDTO> {
 
+    /**
+     * TODO: Description of {@code obtenerEntidades}.
+     *
+     * @param id
+     * @return 
+     * @throws java.lang.Exception 
+     */
     public List<RegistroVehiculoDTO> obtenerEntidades(String id) throws Exception;
 
+    /**
+     * TODO: Description of {@code ObtenerImpresion}.
+     *
+     * @param id
+     * @return 
+     * @throws java.lang.Exception 
+     */
     public List<RegistroVehiculoDTO> ObtenerImpresion(String id) throws Exception;
 
+    /**
+     * TODO: Description of {@code obtenerEntidades}.
+     *
+     * @param pageable
+     * @throws java.lang.Exception
+     */
     public Page<RegistroVehiculoDTO> obtenerEntidades(Pageable pageable) throws Exception;
 
+    /**
+     * TODO: Description of {@code query}.
+     *
+     * @param query
+     * @param pageable
+     */
     public Page<RegistroVehiculoDTO> query(String query, Pageable pageable);
 }

@@ -32,8 +32,20 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RepositorioComparendo extends JpaRepository<Comparendo, Long> {
 
+    /**
+     * TODO: Description of {@code findByIntIdComparendo}.
+     *
+     * @param id
+     * @return 
+     */
     public List<Comparendo> findByIntIdComparendo(Long id);
 
+    /**
+     * TODO: Description of {@code buscarEntidades}.
+     *
+     * @param strBusqueda
+     * @param pageable
+     */
     @Query("SELECT m FROM Comparendo m WHERE m.intIdComparendo LIKE CONCAT('%', :strBusqueda, '%')")
     public Page<Comparendo> buscarEntidades(@Param("strBusqueda") String strBusqueda, Pageable pageable);
 }

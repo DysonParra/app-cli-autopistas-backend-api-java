@@ -32,8 +32,20 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RepositorioMenu extends JpaRepository<Menu, String> {
 
+    /**
+     * TODO: Description of {@code findByStrId}.
+     *
+     * @param id
+     * @return 
+     */
     public List<Menu> findByStrId(String id);
 
+    /**
+     * TODO: Description of {@code buscarEntidades}.
+     *
+     * @param strBusqueda
+     * @param pageable
+     */
     @Query("SELECT m FROM Menu m WHERE m.strId LIKE CONCAT('%', :strBusqueda, '%')")
     public Page<Menu> buscarEntidades(@Param("strBusqueda") String strBusqueda, Pageable pageable);
 }

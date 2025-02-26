@@ -24,13 +24,41 @@ package com.project.dev.api.repositorio;
  */
 public interface RepositorioGenerico<T> {
 
+    /**
+     * TODO: Description of {@code guardarDatos}.
+     *
+     * @param t
+     * @return 
+     */
     public T guardarDatos(T t);
 
+    /**
+     * TODO: Description of {@code eliminarDatos}.
+     *
+     * @param t
+     */
     public void eliminarDatos(T t);
 
+    /**
+     * TODO: Description of {@code obtenerDatos}.
+     *
+     * @param t
+     * @return 
+     */
     public T obtenerDatos(T t);
 
+    /**
+     * TODO: Description of {@code actualizarCambios}.
+     *
+     * @param t
+     * @return 
+     */
     public T actualizarCambios(T t);
 
+    /**
+     * TODO: Description of {@code obtenerTodos}.
+     *
+     * @return 
+     */
     public Iterable<T> obtenerTodos();
 }

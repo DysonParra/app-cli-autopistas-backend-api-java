@@ -28,16 +28,33 @@ import org.mapstruct.Mapping;
 @Mapper(componentModel = "spring") //, unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface MapeoPesaje extends MapeoEntidadesGenerico<PesajeDTO, Pesaje> {
 
+    /**
+     * TODO: Description of {@code obtenerDto}.
+     *
+     * @param entidad
+     * @return 
+     */
     @Mapping(source = "intId", target = "intId")
-    //TODO: deben ser el campo clave de la base de datos ( la llave )
     @Override
     public PesajeDTO obtenerDto(Pesaje entidad);
 
+    /**
+     * TODO: Description of {@code obtenerEntidad}.
+     *
+     * @param entidadDTO
+     * @return 
+     */
     @Mapping(source = "intId", target = "intId")
     @Override
     public Pesaje obtenerEntidad(PesajeDTO entidadDTO);
 
-    default Pesaje desdeId(String intId) {
+    /**
+     * TODO: Description of {@code desdeId}.
+     *
+     * @param intId
+     * @return 
+     */
+    public default Pesaje desdeId(String intId) {
         if (intId == null) {
             return null;
         }

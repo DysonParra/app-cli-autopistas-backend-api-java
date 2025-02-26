@@ -32,8 +32,20 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RepositorioBadge extends JpaRepository<Badge, String> {
 
+    /**
+     * TODO: Description of {@code findByStrTitle}.
+     *
+     * @param id
+     * @return 
+     */
     public List<Badge> findByStrTitle(String id);
 
+    /**
+     * TODO: Description of {@code buscarEntidades}.
+     *
+     * @param strBusqueda
+     * @param pageable
+     */
     @Query("SELECT m FROM Badge m WHERE m.strTitle LIKE CONCAT('%', :strBusqueda, '%')")
     public Page<Badge> buscarEntidades(@Param("strBusqueda") String strBusqueda, Pageable pageable);
 }

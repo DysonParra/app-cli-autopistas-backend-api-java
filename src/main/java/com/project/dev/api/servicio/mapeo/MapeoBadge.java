@@ -28,18 +28,35 @@ import org.mapstruct.Mapping;
 @Mapper(componentModel = "spring") //, unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface MapeoBadge extends MapeoEntidadesGenerico<BadgeDTO, Badge> {
 
+    /**
+     * TODO: Description of {@code obtenerDto}.
+     *
+     * @param entidad
+     * @return 
+     */
     @Mapping(source = "strTitle", target = "title")
     @Mapping(source = "strClasses", target = "classes")
-    //TODO: deben ser el campo clave de la base de datos ( la llave )
     @Override
     public BadgeDTO obtenerDto(Badge entidad);
 
+    /**
+     * TODO: Description of {@code obtenerEntidad}.
+     *
+     * @param entidadDTO
+     * @return 
+     */
     @Mapping(source = "title", target = "strTitle")
     @Mapping(source = "classes", target = "strClasses")
     @Override
     public Badge obtenerEntidad(BadgeDTO entidadDTO);
 
-    default Badge desdeId(String intId) {
+    /**
+     * TODO: Description of {@code desdeId}.
+     *
+     * @param intId
+     * @return 
+     */
+    public default Badge desdeId(String intId) {
         if (intId == null) {
             return null;
         }

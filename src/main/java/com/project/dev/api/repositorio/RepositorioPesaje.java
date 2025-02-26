@@ -32,8 +32,20 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RepositorioPesaje extends JpaRepository<Pesaje, Long> {
 
+    /**
+     * TODO: Description of {@code findByIntId}.
+     *
+     * @param id
+     * @return 
+     */
     public List<Pesaje> findByIntId(Long id);
 
+    /**
+     * TODO: Description of {@code buscarEntidades}.
+     *
+     * @param strBusqueda
+     * @param pageable
+     */
     @Query("SELECT m FROM Pesaje m WHERE m.intId LIKE CONCAT('%', :strBusqueda, '%')")
     public Page<Pesaje> buscarEntidades(@Param("strBusqueda") String strBusqueda, Pageable pageable);
 }

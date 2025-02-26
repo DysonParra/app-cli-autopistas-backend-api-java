@@ -32,12 +32,36 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RepositorioTransitoDinamica extends JpaRepository<TransitoDinamica, Long> {
 
+    /**
+     * TODO: Description of {@code findByIntIdDinamica}.
+     *
+     * @param id
+     * @return 
+     */
     public List<TransitoDinamica> findByIntIdDinamica(Long id);
 
+    /**
+     * TODO: Description of {@code findByBitBorrado}.
+     *
+     * @param bit
+     * @return 
+     */
     public List<TransitoDinamica> findByBitBorrado(Boolean bit);
 
+    /**
+     * TODO: Description of {@code findByBitBorrado}.
+     *
+     * @param pageable
+     * @param bit
+     */
     public Page<TransitoDinamica> findByBitBorrado(Pageable pageable, Boolean bit);
 
+    /**
+     * TODO: Description of {@code buscarEntidades}.
+     *
+     * @param strBusqueda
+     * @param pageable
+     */
     @Query("SELECT m FROM TransitoDinamica m WHERE m.strPlacaVehiculo LIKE CONCAT('%', :strBusqueda, '%')")
     public Page<TransitoDinamica> buscarEntidades(@Param("strBusqueda") String strBusqueda, Pageable pageable);
 }

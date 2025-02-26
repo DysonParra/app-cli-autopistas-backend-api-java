@@ -27,9 +27,28 @@ import org.springframework.data.domain.Pageable;
  */
 public interface ServicioUsuario extends ServicioGenerico<UsuarioDTO> {
 
+    /**
+     * TODO: Description of {@code obtenerEntidades}.
+     *
+     * @param id
+     * @return 
+     * @throws java.lang.Exception 
+     */
     public List<UsuarioDTO> obtenerEntidades(String id) throws Exception;
 
+    /**
+     * TODO: Description of {@code obtenerEntidades}.
+     *
+     * @param pageable
+     * @throws java.lang.Exception
+     */
     public Page<UsuarioDTO> obtenerEntidades(Pageable pageable) throws Exception;
 
+    /**
+     * TODO: Description of {@code query}.
+     *
+     * @param query
+     * @param pageable
+     */
     public Page<UsuarioDTO> query(String query, Pageable pageable);
 }

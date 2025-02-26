@@ -32,8 +32,20 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RepositorioUsuario extends JpaRepository<Usuario, Long> {
 
+    /**
+     * TODO: Description of {@code findByIntCedulaUsuario}.
+     *
+     * @param id
+     * @return 
+     */
     public List<Usuario> findByIntCedulaUsuario(Long id);
 
+    /**
+     * TODO: Description of {@code buscarEntidades}.
+     *
+     * @param strBusqueda
+     * @param pageable
+     */
     @Query("SELECT m FROM Usuario m WHERE m.intCedulaUsuario LIKE CONCAT('%', :strBusqueda, '%')")
     public Page<Usuario> buscarEntidades(@Param("strBusqueda") String strBusqueda, Pageable pageable);
 }

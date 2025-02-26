@@ -32,11 +32,29 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RepositorioRegistroVehiculo extends JpaRepository<RegistroVehiculo, Long> {
 
+    /**
+     * TODO: Description of {@code findByIntTiqueteNro}.
+     *
+     * @param id
+     * @return 
+     */
     public List<RegistroVehiculo> findByIntTiqueteNro(Long id);
 
+    /**
+     * TODO: Description of {@code buscarRegistroVehiculo}.
+     *
+     * @param strBusqueda
+     * @return 
+     */
     @Query("SELECT m FROM RegistroVehiculo m WHERE m.strPlacaVehiculo LIKE CONCAT('%', :strBusqueda, '%') ORDER BY m.dtFechaHoraEstatica desc")
     public List<RegistroVehiculo> buscarRegistroVehiculo(@Param("strBusqueda") String strBusqueda);
 
+    /**
+     * TODO: Description of {@code buscarEntidades}.
+     *
+     * @param strBusqueda
+     * @param pageable
+     */
     @Query("SELECT m FROM RegistroVehiculo m WHERE m.strPlacaVehiculo LIKE CONCAT('%', :strBusqueda, '%')")
     public Page<RegistroVehiculo> buscarEntidades(@Param("strBusqueda") String strBusqueda, Pageable pageable);
 }

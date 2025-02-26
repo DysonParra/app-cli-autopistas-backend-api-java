@@ -28,16 +28,33 @@ import org.mapstruct.Mapping;
 @Mapper(componentModel = "spring") //, unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface MapeoTramaComunicacion extends MapeoEntidadesGenerico<TramaComunicacionDTO, TramaComunicacion> {
 
+    /**
+     * TODO: Description of {@code obtenerDto}.
+     *
+     * @param entidad
+     * @return 
+     */
     @Mapping(source = "intIdTrama", target = "intIdTrama")
-    //TODO: deben ser el campo clave de la base de datos ( la llave )
     @Override
     public TramaComunicacionDTO obtenerDto(TramaComunicacion entidad);
 
+    /**
+     * TODO: Description of {@code obtenerEntidad}.
+     *
+     * @param entidadDTO
+     * @return 
+     */
     @Mapping(source = "intIdTrama", target = "intIdTrama")
     @Override
     public TramaComunicacion obtenerEntidad(TramaComunicacionDTO entidadDTO);
 
-    default TramaComunicacion desdeId(String intId) {
+    /**
+     * TODO: Description of {@code desdeId}.
+     *
+     * @param intId
+     * @return 
+     */
+    public default TramaComunicacion desdeId(String intId) {
         if (intId == null) {
             return null;
         }

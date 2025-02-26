@@ -27,9 +27,28 @@ import org.springframework.data.domain.Pageable;
  */
 public interface ServicioMercancia extends ServicioGenerico<MercanciaDTO> {
 
+    /**
+     * TODO: Description of {@code obtenerEntidades}.
+     *
+     * @param id
+     * @return 
+     * @throws java.lang.Exception 
+     */
     public List<MercanciaDTO> obtenerEntidades(String id) throws Exception;
 
+    /**
+     * TODO: Description of {@code obtenerEntidades}.
+     *
+     * @param pageable
+     * @throws java.lang.Exception
+     */
     public Page<MercanciaDTO> obtenerEntidades(Pageable pageable) throws Exception;
 
+    /**
+     * TODO: Description of {@code query}.
+     *
+     * @param query
+     * @param pageable
+     */
     public Page<MercanciaDTO> query(String query, Pageable pageable);
 }

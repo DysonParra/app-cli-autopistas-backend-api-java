@@ -32,8 +32,20 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RepositorioCategoria extends JpaRepository<Categoria, Long> {
 
+    /**
+     * TODO: Description of {@code findByIntIdCategoria}.
+     *
+     * @param id
+     * @return 
+     */
     public List<Categoria> findByIntIdCategoria(Long id);
 
+    /**
+     * TODO: Description of {@code buscarEntidades}.
+     *
+     * @param strBusqueda
+     * @param pageable
+     */
     @Query("SELECT m FROM Categoria m WHERE m.intIdCategoria LIKE CONCAT('%', :strBusqueda, '%')")
     public Page<Categoria> buscarEntidades(@Param("strBusqueda") String strBusqueda, Pageable pageable);
 }

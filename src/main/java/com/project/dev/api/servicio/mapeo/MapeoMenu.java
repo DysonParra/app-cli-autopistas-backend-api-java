@@ -28,6 +28,12 @@ import org.mapstruct.Mapping;
 @Mapper(componentModel = "spring") //, unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface MapeoMenu extends MapeoEntidadesGenerico<MenuDTO, Menu> {
 
+    /**
+     * TODO: Description of {@code obtenerDto}.
+     *
+     * @param entidad
+     * @return 
+     */
     @Mapping(source = "strId", target = "id")
     @Mapping(source = "strTitle", target = "title")
     @Mapping(source = "strSubtitle", target = "subtitle")
@@ -39,10 +45,15 @@ public interface MapeoMenu extends MapeoEntidadesGenerico<MenuDTO, Menu> {
     @Mapping(source = "bitDisabled", target = "disabled")
     @Mapping(source = "strBadge", target = "badge")
     @Mapping(source = "strFather", target = "father")
-    //TODO: deben ser el campo clave de la base de datos ( la llave )
     @Override
     public MenuDTO obtenerDto(Menu entidad);
 
+    /**
+     * TODO: Description of {@code obtenerEntidad}.
+     *
+     * @param entidadDTO
+     * @return 
+     */
     @Mapping(source = "id", target = "strId")
     @Mapping(source = "title", target = "strTitle")
     @Mapping(source = "subtitle", target = "strSubtitle")
@@ -57,7 +68,13 @@ public interface MapeoMenu extends MapeoEntidadesGenerico<MenuDTO, Menu> {
     @Override
     public Menu obtenerEntidad(MenuDTO entidadDTO);
 
-    default Menu desdeId(String intId) {
+    /**
+     * TODO: Description of {@code desdeId}.
+     *
+     * @param intId
+     * @return 
+     */
+    public default Menu desdeId(String intId) {
         if (intId == null) {
             return null;
         }

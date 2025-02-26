@@ -32,8 +32,20 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RepositorioPolicia extends JpaRepository<Policia, Long> {
 
+    /**
+     * TODO: Description of {@code findByIntIdPolicia}.
+     *
+     * @param id
+     * @return 
+     */
     public List<Policia> findByIntIdPolicia(Long id);
 
+    /**
+     * TODO: Description of {@code buscarEntidades}.
+     *
+     * @param strBusqueda
+     * @param pageable
+     */
     @Query("SELECT m FROM Policia m WHERE m.intIdPolicia LIKE CONCAT('%', :strBusqueda, '%')")
     public Page<Policia> buscarEntidades(@Param("strBusqueda") String strBusqueda, Pageable pageable);
 }

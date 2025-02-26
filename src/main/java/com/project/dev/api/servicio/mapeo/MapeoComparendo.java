@@ -28,16 +28,33 @@ import org.mapstruct.Mapping;
 @Mapper(componentModel = "spring") //, unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface MapeoComparendo extends MapeoEntidadesGenerico<ComparendoDTO, Comparendo> {
 
+    /**
+     * TODO: Description of {@code obtenerDto}.
+     *
+     * @param entidad
+     * @return 
+     */
     @Mapping(source = "intIdComparendo", target = "intIdComparendo")
-    //TODO: deben ser el campo clave de la base de datos ( la llave )
     @Override
     public ComparendoDTO obtenerDto(Comparendo entidad);
 
+    /**
+     * TODO: Description of {@code obtenerEntidad}.
+     *
+     * @param entidadDTO
+     * @return 
+     */
     @Mapping(source = "intIdComparendo", target = "intIdComparendo")
     @Override
     public Comparendo obtenerEntidad(ComparendoDTO entidadDTO);
 
-    default Comparendo desdeId(String intId) {
+    /**
+     * TODO: Description of {@code desdeId}.
+     *
+     * @param intId
+     * @return 
+     */
+    public default Comparendo desdeId(String intId) {
         if (intId == null) {
             return null;
         }

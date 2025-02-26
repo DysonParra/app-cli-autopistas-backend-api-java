@@ -32,8 +32,20 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RepositorioMercancia extends JpaRepository<Mercancia, Long> {
 
+    /**
+     * TODO: Description of {@code findByIntIdMercancia}.
+     *
+     * @param id
+     * @return 
+     */
     public List<Mercancia> findByIntIdMercancia(Long id);
 
+    /**
+     * TODO: Description of {@code buscarEntidades}.
+     *
+     * @param strBusqueda
+     * @param pageable
+     */
     @Query("SELECT m FROM Mercancia m WHERE m.intIdMercancia LIKE CONCAT('%', :strBusqueda, '%')")
     public Page<Mercancia> buscarEntidades(@Param("strBusqueda") String strBusqueda, Pageable pageable);
 }

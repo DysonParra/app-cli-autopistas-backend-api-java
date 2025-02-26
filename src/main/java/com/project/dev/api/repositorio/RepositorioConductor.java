@@ -32,8 +32,20 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RepositorioConductor extends JpaRepository<Conductor, Long> {
 
+    /**
+     * TODO: Description of {@code findByIntCedulaConductor}.
+     *
+     * @param id
+     * @return 
+     */
     public List<Conductor> findByIntCedulaConductor(Long id);
 
+    /**
+     * TODO: Description of {@code buscarEntidades}.
+     *
+     * @param strBusqueda
+     * @param pageable
+     */
     @Query("SELECT m FROM Conductor m WHERE m.intCedulaConductor LIKE CONCAT('%', :strBusqueda, '%')")
     public Page<Conductor> buscarEntidades(@Param("strBusqueda") String strBusqueda, Pageable pageable);
 }

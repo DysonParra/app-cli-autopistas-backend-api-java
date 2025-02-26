@@ -28,16 +28,33 @@ import org.mapstruct.Mapping;
 @Mapper(componentModel = "spring") //, unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface MapeoRegistroVehiculo extends MapeoEntidadesGenerico<RegistroVehiculoDTO, RegistroVehiculo> {
 
+    /**
+     * TODO: Description of {@code obtenerDto}.
+     *
+     * @param entidad
+     * @return 
+     */
     @Mapping(source = "intTiqueteNro", target = "intTiqueteNro")
-    //TODO: deben ser el campo clave de la base de datos ( la llave )
     @Override
     public RegistroVehiculoDTO obtenerDto(RegistroVehiculo entidad);
 
+    /**
+     * TODO: Description of {@code obtenerEntidad}.
+     *
+     * @param entidadDTO
+     * @return 
+     */
     @Mapping(source = "intTiqueteNro", target = "intTiqueteNro")
     @Override
     public RegistroVehiculo obtenerEntidad(RegistroVehiculoDTO entidadDTO);
 
-    default RegistroVehiculo desdeId(String intId) {
+    /**
+     * TODO: Description of {@code desdeId}.
+     *
+     * @param intId
+     * @return 
+     */
+    public default RegistroVehiculo desdeId(String intId) {
         if (intId == null) {
             return null;
         }

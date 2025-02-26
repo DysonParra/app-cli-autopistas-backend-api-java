@@ -27,9 +27,28 @@ import org.springframework.data.domain.Pageable;
  */
 public interface ServicioMenu extends ServicioGenerico<MenuDTO> {
 
+    /**
+     * TODO: Description of {@code obtenerEntidades}.
+     *
+     * @param id
+     * @return 
+     * @throws java.lang.Exception 
+     */
     public List<MenuDTO> obtenerEntidades(String id) throws Exception;
 
+    /**
+     * TODO: Description of {@code obtenerEntidades}.
+     *
+     * @param pageable
+     * @throws java.lang.Exception
+     */
     public Page<MenuDTO> obtenerEntidades(Pageable pageable) throws Exception;
 
+    /**
+     * TODO: Description of {@code query}.
+     *
+     * @param query
+     * @param pageable
+     */
     public Page<MenuDTO> query(String query, Pageable pageable);
 }

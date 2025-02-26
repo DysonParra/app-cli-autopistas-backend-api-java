@@ -32,8 +32,20 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface RepositorioTramaComunicacion extends JpaRepository<TramaComunicacion, Long> {
 
+    /**
+     * TODO: Description of {@code findByIntIdTrama}.
+     *
+     * @param id
+     * @return 
+     */
     public List<TramaComunicacion> findByIntIdTrama(Long id);
 
+    /**
+     * TODO: Description of {@code buscarEntidades}.
+     *
+     * @param strBusqueda
+     * @param pageable
+     */
     @Query("SELECT m FROM TramaComunicacion m WHERE m.intIdTrama LIKE CONCAT('%', :strBusqueda, '%')")
     public Page<TramaComunicacion> buscarEntidades(@Param("strBusqueda") String strBusqueda, Pageable pageable);
 }
