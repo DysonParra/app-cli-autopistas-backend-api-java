@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoMercancia}
+ * @overview        {EnsambladorRecursoMercancia}
  *
  * @version         2.0
  *

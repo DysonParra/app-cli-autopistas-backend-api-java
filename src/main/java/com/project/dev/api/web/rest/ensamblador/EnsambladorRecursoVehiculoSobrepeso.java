@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoVehiculoSobrepeso}
+ * @overview        {EnsambladorRecursoVehiculoSobrepeso}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {RepositorioMercancia}
+ * @overview        {RepositorioMercancia}
  *
  * @version         2.0
  *

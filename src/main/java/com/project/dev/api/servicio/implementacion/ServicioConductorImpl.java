@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioConductorImpl}
+ * @overview        {ServicioConductorImpl}
  *
  * @version         2.0
  *
@@ -62,7 +62,7 @@ public class ServicioConductorImpl implements ServicioConductor {
     public ConductorDTO guardarActualizar(ConductorDTO entidadDTO) throws Exception {
         log.debug("Solicitud para guardar la entidad : {}", entidadDTO);
 
-        //TODO: agregar validacion especifica del servicio.
+        //TODO: agregar validación específica del servicio.
         Conductor entidad = mapeoEntidad.obtenerEntidad(entidadDTO);
         entidad = repositorioEntidad.save(entidad);
 

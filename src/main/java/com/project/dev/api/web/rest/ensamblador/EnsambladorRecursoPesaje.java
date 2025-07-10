@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoPesaje}
+ * @overview        {EnsambladorRecursoPesaje}
  *
  * @version         2.0
  *

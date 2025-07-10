@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoComparendo}
+ * @overview        {EnsambladorRecursoComparendo}
  *
  * @version         2.0
  *

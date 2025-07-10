@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoVehiculo}
+ * @overview        {EnsambladorRecursoVehiculo}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoTramaComunicacion}
+ * @overview        {EnsambladorRecursoTramaComunicacion}
  *
  * @version         2.0
  *

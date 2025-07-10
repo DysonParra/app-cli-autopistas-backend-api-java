@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MapeoPolicia}
+ * @overview        {MapeoPolicia}
  *
  * @version         2.0
  *
@@ -25,7 +25,7 @@ import org.mapstruct.Mapping;
  * @author Dyson Parra
  * @since Java 17 (LTS), Gradle 7.3
  */
-@Mapper(componentModel = "spring") //, unmappedTargetPolicy = ReportingPolicy.IGNORE)
+@Mapper(componentModel = "spring")
 public interface MapeoPolicia extends MapeoEntidadesGenerico<PoliciaDTO, Policia> {
 
     /**

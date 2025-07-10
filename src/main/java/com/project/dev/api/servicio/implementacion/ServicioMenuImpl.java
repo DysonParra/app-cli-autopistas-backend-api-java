@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioMenuImpl}
+ * @overview        {ServicioMenuImpl}
  *
  * @version         2.0
  *
@@ -62,7 +62,7 @@ public class ServicioMenuImpl implements ServicioMenu {
     public MenuDTO guardarActualizar(MenuDTO entidadDTO) throws Exception {
         log.debug("Solicitud para guardar la entidad : {}", entidadDTO);
 
-        //TODO: agregar validacion especifica del servicio.
+        //TODO: agregar validación específica del servicio.
         Menu entidad = mapeoEntidad.obtenerEntidad(entidadDTO);
         entidad = repositorioEntidad.save(entidad);
 

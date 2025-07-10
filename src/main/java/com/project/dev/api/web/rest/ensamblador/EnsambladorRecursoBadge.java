@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoBadge}
+ * @overview        {EnsambladorRecursoBadge}
  *
  * @version         2.0
  *

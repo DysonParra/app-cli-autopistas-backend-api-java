@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoUsuario}
+ * @overview        {EnsambladorRecursoUsuario}
  *
  * @version         2.0
  *

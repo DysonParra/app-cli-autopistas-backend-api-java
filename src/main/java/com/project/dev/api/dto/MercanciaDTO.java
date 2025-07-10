@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {MercanciaDTO}
+ * @overview        {MercanciaDTO}
  *
  * @version         2.0
  *

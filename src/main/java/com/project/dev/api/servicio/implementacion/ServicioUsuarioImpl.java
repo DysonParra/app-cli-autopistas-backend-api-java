@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioUsuarioImpl}
+ * @overview        {ServicioUsuarioImpl}
  *
  * @version         2.0
  *
@@ -62,7 +62,7 @@ public class ServicioUsuarioImpl implements ServicioUsuario {
     public UsuarioDTO guardarActualizar(UsuarioDTO entidadDTO) throws Exception {
         log.debug("Solicitud para guardar la entidad : {}", entidadDTO);
 
-        //TODO: agregar validacion especifica del servicio.
+        //TODO: agregar validación específica del servicio.
         Usuario entidad = mapeoEntidad.obtenerEntidad(entidadDTO);
         entidad = repositorioEntidad.save(entidad);
 

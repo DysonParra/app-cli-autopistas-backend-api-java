@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {RepositorioTramaComunicacion}
+ * @overview        {RepositorioTramaComunicacion}
  *
  * @version         2.0
  *

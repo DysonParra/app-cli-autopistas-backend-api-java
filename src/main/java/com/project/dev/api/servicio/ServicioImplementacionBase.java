@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioImplementacionBase}
+ * @overview        {ServicioImplementacionBase}
  *
  * @version         2.0
  *

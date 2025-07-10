@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {PoliciaDTO}
+ * @overview        {PoliciaDTO}
  *
  * @version         2.0
  *

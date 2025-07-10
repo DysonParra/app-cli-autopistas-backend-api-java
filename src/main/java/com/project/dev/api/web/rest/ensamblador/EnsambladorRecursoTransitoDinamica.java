@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoTransitoDinamica}
+ * @overview        {EnsambladorRecursoTransitoDinamica}
  *
  * @version         2.0
  *

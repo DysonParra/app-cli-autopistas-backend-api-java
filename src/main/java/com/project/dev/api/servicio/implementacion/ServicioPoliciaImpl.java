@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioPoliciaImpl}
+ * @overview        {ServicioPoliciaImpl}
  *
  * @version         2.0
  *
@@ -62,7 +62,7 @@ public class ServicioPoliciaImpl implements ServicioPolicia {
     public PoliciaDTO guardarActualizar(PoliciaDTO entidadDTO) throws Exception {
         log.debug("Solicitud para guardar la entidad : {}", entidadDTO);
 
-        //TODO: agregar validacion especifica del servicio.
+        //TODO: agregar validación específica del servicio.
         Policia entidad = mapeoEntidad.obtenerEntidad(entidadDTO);
         entidad = repositorioEntidad.save(entidad);
 

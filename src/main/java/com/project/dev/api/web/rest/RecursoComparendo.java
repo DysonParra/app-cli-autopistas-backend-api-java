@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {RecursoComparendo}
+ * @overview        {RecursoComparendo}
  *
  * @version         2.0
  *
@@ -209,7 +209,7 @@ public class RecursoComparendo {
                     .map(u -> new ResponseEntity<>(ensambladorRecursoEntidad.toModel(u), HttpStatus.OK))
                     .orElse(new ResponseEntity<>(HttpStatus.NO_CONTENT));
         } catch (Exception e) {
-            log.error("Ocurrio un error en la llamada REST buscarEntidad", e);
+            log.error("Ocurrió un error en la llamada REST buscarEntidad", e);
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
@@ -238,7 +238,7 @@ public class RecursoComparendo {
                     .created(new URI(resource.getLink("self").orElse(new Link("self")).getHref()))
                     .body(resource);
         } catch (Exception e) {
-            log.warn("Ocurrio un error en la llamada REST guardarEntidad", e);
+            log.warn("Ocurrió un error en la llamada REST guardarEntidad", e);
             return new ResponseEntity<>(HttpStatus.UNPROCESSABLE_ENTITY);
         }
     }

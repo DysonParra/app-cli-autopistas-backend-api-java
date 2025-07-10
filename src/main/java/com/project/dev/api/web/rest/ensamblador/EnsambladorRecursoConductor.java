@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoConductor}
+ * @overview        {EnsambladorRecursoConductor}
  *
  * @version         2.0
  *

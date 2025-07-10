@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioMercanciaImpl}
+ * @overview        {ServicioMercanciaImpl}
  *
  * @version         2.0
  *
@@ -62,7 +62,7 @@ public class ServicioMercanciaImpl implements ServicioMercancia {
     public MercanciaDTO guardarActualizar(MercanciaDTO entidadDTO) throws Exception {
         log.debug("Solicitud para guardar la entidad : {}", entidadDTO);
 
-        //TODO: agregar validacion especifica del servicio.
+        //TODO: agregar validación específica del servicio.
         Mercancia entidad = mapeoEntidad.obtenerEntidad(entidadDTO);
         entidad = repositorioEntidad.save(entidad);
 

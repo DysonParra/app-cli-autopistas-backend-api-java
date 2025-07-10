@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {PaginationUtil}
+ * @overview        {PaginationUtil}
  *
  * @version         2.0
  *

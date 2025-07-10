@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioTramaComunicacionImpl}
+ * @overview        {ServicioTramaComunicacionImpl}
  *
  * @version         2.0
  *
@@ -62,7 +62,7 @@ public class ServicioTramaComunicacionImpl implements ServicioTramaComunicacion 
     public TramaComunicacionDTO guardarActualizar(TramaComunicacionDTO entidadDTO) throws Exception {
         log.debug("Solicitud para guardar la entidad : {}", entidadDTO);
 
-        //TODO: agregar validacion especifica del servicio.
+        //TODO: agregar validación específica del servicio.
         TramaComunicacion entidad = mapeoEntidad.obtenerEntidad(entidadDTO);
         entidad = repositorioEntidad.save(entidad);
 

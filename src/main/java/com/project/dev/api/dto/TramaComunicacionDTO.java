@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {TramaComunicacionDTO}
+ * @overview        {TramaComunicacionDTO}
  *
  * @version         2.0
  *

@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioBadge}
+ * @overview        {ServicioBadge}
  *
  * @version         2.0
  *

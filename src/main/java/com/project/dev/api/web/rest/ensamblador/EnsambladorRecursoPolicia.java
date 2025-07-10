@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {EnsambladorRecursoPolicia}
+ * @overview        {EnsambladorRecursoPolicia}
  *
  * @version         2.0
  *

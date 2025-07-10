@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioBadgeImpl}
+ * @overview        {ServicioBadgeImpl}
  *
  * @version         2.0
  *
@@ -62,7 +62,7 @@ public class ServicioBadgeImpl implements ServicioBadge {
     public BadgeDTO guardarActualizar(BadgeDTO entidadDTO) throws Exception {
         log.debug("Solicitud para guardar la entidad : {}", entidadDTO);
 
-        //TODO: agregar validacion especifica del servicio.
+        //TODO: agregar validación específica del servicio.
         Badge entidad = mapeoEntidad.obtenerEntidad(entidadDTO);
         entidad = repositorioEntidad.save(entidad);
 

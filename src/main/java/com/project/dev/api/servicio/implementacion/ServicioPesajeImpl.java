@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {ServicioPesajeImpl}
+ * @overview        {ServicioPesajeImpl}
  *
  * @version         2.0
  *
@@ -62,7 +62,7 @@ public class ServicioPesajeImpl implements ServicioPesaje {
     public PesajeDTO guardarActualizar(PesajeDTO entidadDTO) throws Exception {
         log.debug("Solicitud para guardar la entidad tipo Pesaje: {}", entidadDTO);
 
-        //TODO: agregar validacion especifica del servicio.
+        //TODO: agregar validación específica del servicio.
         Pesaje entidad = mapeoEntidad.obtenerEntidad(entidadDTO);
         entidad = repositorioEntidad.save(entidad);
 
@@ -114,7 +114,7 @@ public class ServicioPesajeImpl implements ServicioPesaje {
      */
     @Override
     public Page<PesajeDTO> obtenerEntidades(Pageable pageable) throws Exception {
-        log.debug("Solicitud para listar todas las Entidades tipo Pesaje con paginacion");
+        log.debug("Solicitud para listar todas las Entidades tipo Pesaje con paginación");
         return repositorioEntidad.findAll(pageable).map(mapeoEntidad::obtenerDto);
     }
 
